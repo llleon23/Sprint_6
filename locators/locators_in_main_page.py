@@ -24,7 +24,9 @@ class LocatorsMain:
         8: (By.XPATH, '//div[@id = "accordion__panel-7"]')
     }
 
-top_button_order = (By.XPATH, '//button[@class="Button_Button__ra12g"]')
-bottom_button_order = (By.XPATH, '//button[contains(@class, "Button_Button__ra12g") and contains(@class, "Button_Middle__1CSJM")]')
-scooter_text = (By.XPATH, '//img[@src="/assets/scooter.svg"]')
-yandex_logo = (By.XPATH, '//img[@src="/assets/ya.svg"]')
+    top_button_order = (By.XPATH, '//button[@class="Button_Button__ra12g"]')
+    bottom_button_order = (By.XPATH, '//button[@class="Button_Button__ra12g Button_Middle__1CSJM"]')
+    scooter_logo = (By.XPATH, '//img[@src="/assets/scooter.svg"]')
+    yandex_logo = (By.XPATH, '//img[@src="/assets/ya.svg"]')
+    questions_text = (By.XPATH, '//div[text()= "Курьер забирает самокат"]')
+    cookie_banner_close = (By.XPATH, '//button[text()= "да все привыкли"]')

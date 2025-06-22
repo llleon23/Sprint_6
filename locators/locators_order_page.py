@@ -18,9 +18,8 @@ class LocatorsOrder:
     day_rental_period = (By.XPATH, './/div[@class="Dropdown-menu"]/div[text()="сутки"]')
     checkbox_black = (By.XPATH, '//input[@class="Checkbox_Input__14A2w"]')
     comment = (By.XPATH, '//input[@placeholder="Комментарий для курьера"]')
-    button_order_order = (By.XPATH, '//button[contains(@class, "Button_Button__ra12g")/button[text()= "Заказать"]')
-
-    #модальное окно
+    button_order_order = (By.XPATH, '//button[@class="Button_Button__ra12g Button_Middle__1CSJM"]')
+    #модальные окно
     button_yes = (By.XPATH, '//button[text()= "Да"]')
-
+    button_check_status = (By.XPATH, './/*[text()= "Посмотреть статус"]')
 
