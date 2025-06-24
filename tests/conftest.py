@@ -1,11 +1,9 @@
 import pytest
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-
 from curl import *
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture(scope="function")
 def driver():
     driver = webdriver.Firefox()
     driver.get(main_site)

@@ -53,7 +53,7 @@ class MainPage(BasePage):
         self.wait_visibility_element(LocatorsMain.scooter_logo)
         self.scroll_to_element(LocatorsMain.questions_text)
 
-    @allure.step("Закрыть гребаный банер")
+    @allure.step("Закрыть небольшой безобидный баннер")
     def wait_visibility_cookie_banner_close(self):
         self.wait_visibility_element(LocatorsMain.cookie_banner_close)
         self.click_on(LocatorsMain.cookie_banner_close)
